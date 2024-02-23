@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Car', 'Motorcycle']
+
+roboflow:
+  workspace: my-work-j6abx
+  project: xy-ep7bi
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-work-j6abx/xy-ep7bi/dataset/3
